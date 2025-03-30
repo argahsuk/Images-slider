@@ -63,3 +63,48 @@ h1{
     top: 40vh;
     left: -118vh;
 }
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    #imagediv {
+        width: 60vw;
+        height: 35vh;
+        justify-content: space-between;
+    }
+    #imagediv img{
+        width: 60vw;
+        flex-shrink: 0;
+        height: 75%;
+        
+    }
+    #left, #right {
+        width: 10vw;
+        height: 6vh;
+    }
+    
+    #left {
+       left: -20vh;
+       bottom: 5vh;
+    }
+    
+    #right {
+        left: 20vh;
+        bottom: 10vh;
+    }
+    
+    h1 {
+        bottom: 34vh;
+        left: 0;
+        text-align: center;
+    }
+    
+    .contacts {
+        top: 10vh;
+        left: 0;
+        text-align: center;
+    }
+}
