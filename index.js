@@ -1,5 +1,5 @@
 
-let scrollStep = window.innerWidth <= 768 ? 252 : 400;
+let scrolls = window.innerWidth <= 768 ? 252 : 400;
 
 function updateScrolls() {
     scrolls = window.innerWidth <= 768 ? 252 : 400;
