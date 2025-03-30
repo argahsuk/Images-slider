@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    background:linear-gradient(to left,rgb(73, 158, 177),rgb(0, 255, 187));
+}
+
+/* main box */
+#imagediv{
+    background:linear-gradient(to left,rgb(124, 67, 231),rgb(209, 214, 38));
+    border: 0.1vh black solid;
+    height: 45vh;
+    width: 45vh;
+    position: absolute;
+    box-shadow: 0 0 25px rgb(15, 11, 12);
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    align-content: center;
+    gap: 70px;
+    justify-content: space-evenly;
+    scrollbar-width:none; 
+}
+#imagediv img{
+    width: 100%;
+    flex-shrink: 0;
+    height: 75%;
+}
+
+/* buttons */
+img{
+    height: 5vh;
+    width: 4vw;    
+}
+#left{
+    height: 6vh;
+    width: 5vw;   
+    background:linear-gradient(to left,rgb(252, 253, 255),rgb(5, 94, 247));
+    position: relative;
+    right: 29vh;
+    visibility: hidden;
+}
+#right{
+    height: 6vh;
+    width: 5vw;
+    background:linear-gradient(to left,rgb(5, 94, 247),rgb(252, 253, 255));
+    position: relative;
+    left: 20vh;
+}
+
+/* header */
+h1{
+    position: relative;
+    bottom: 43vh;
+    left: 35vh;
+    text-shadow:15px 5px 15px rgb(10, 10, 10);
+}
+
+.contacts{
+    position: relative;
+    top: 40vh;
+    left: -118vh;
+}
