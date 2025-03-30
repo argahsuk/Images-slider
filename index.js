@@ -1,13 +1,13 @@
 let scrolls;
 if (window.innerWidth <= 768) {
-    scrolls = 252;
+    scrolls = 285;
 } else {
     scrolls = 400.9;
 }
 
 function updateScrolls() {
     if (window.innerWidth <= 768) {
-        scrolls = 252;
+        scrolls = 285;
     } else {
         scrolls = 400.9;
     }
