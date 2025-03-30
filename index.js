@@ -1,23 +1,23 @@
+let mainbox=document.getElementById('imagediv')
+
+
+
+
 let scrolls;
 if (window.innerWidth <= 768) {
-    scrolls = 285;
+    scrolls =  mainbox.clientWidth+70;
 } else {
-    scrolls = 400.9;
+    scrolls =  mainbox.clientWidth+70;
 }
 
 function updateScrolls() {
     if (window.innerWidth <= 768) {
-        scrolls = 285;
+        scrolls =  mainbox.clientWidth+70;
     } else {
-        scrolls = 400.9;
+        scrolls = mainbox.clientWidth+70;
     }
 }
 
-
-
-
-
-let mainbox=document.getElementById('imagediv')
 let images=document.querySelectorAll('.slider-image')
 let x=1;
 
