@@ -1,8 +1,16 @@
-
-let scrolls = window.innerWidth <= 768 ? 252 : 400;
+let scrolls;
+if (window.innerWidth <= 768) {
+    scrolls = 252;
+} else {
+    scrolls = 400.9;
+}
 
 function updateScrolls() {
-    scrolls = window.innerWidth <= 768 ? 252 : 400;
+    if (window.innerWidth <= 768) {
+        scrolls = 252;
+    } else {
+        scrolls = 400.9;
+    }
 }
 
 
